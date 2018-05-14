@@ -6,7 +6,7 @@
 
 {% block content %}
 
-{% for entrada in entradas %}
+{% for entrada in categories.get_posts.all %}
   <section class="page-section cta">
         <div class="container">
           <div class="row">
